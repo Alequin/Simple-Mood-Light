@@ -1,7 +1,5 @@
 package colours;
 
-import android.util.Log;
-
 import java.math.BigDecimal;
 
 /**

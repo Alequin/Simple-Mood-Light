@@ -12,21 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_d5226493342c6d1acff36ae7ae0120a6b148f9e6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_5a1f6443464b6c17f7fbeb8d835cd30862c18807\classes.dex" />
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_3d55a19dca65b8cf8237728278ab6caf3871a5f0\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,12 +30,138 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_73106f61feeb5569531f11771aa90c67c15e2418\classes.dex" />
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_6f5f3828b6abf7d54dafc4c2c78af1f4708b0b93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7efda4b9254df5fda9ba36f1f40458adfb4af2d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_b0eb7f72e6c44ff8fd7260243343ffdcd23fa78b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_2274234b295b449080cf59f5aa4d5252170cae1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_49c49cd318c0974d1f99782b52b4b8a0a04faf0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_766bb67f4dfa258438ba41f0ca27be9244f2a020\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_a4ded164c3296168a6cdbe781410f08b42754df7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alequin\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_9cbadbb135f576fc3aaf4777468a275c74d29c6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_581438eb43a346d36c3db4e8329710be568f53cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_f20ade3f8223e46905ce00f7ce198aa9b0e9295b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_960331efd42bff8b70643489a8bbf31a4e5a0d8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_2c2ebe16278e958bab31aac9a5319d7894ee8dbf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_5a1f6443464b6c17f7fbeb8d835cd30862c18807\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_7570d5322de4183aff42302e6be0af83fa91dc41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_1fb4af7678af6c200ad868c67ede2abce54ae71f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,12 +192,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="f2c71ba4631f33563042aac054087030d14985a8">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c476f19875f2a15f107fdb507a9e8c8abae8ccd8\classes.dex" />
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_754c601e85fccc751520bbf4cd2bb2b309923bb7\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,48 +210,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_5fe24390fdb43f17c61f6fa01f403e2dc1b2cace\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_635cc6c433d14bdb91f3f645221f0da17dd034a3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_baaf906057624543028cb6ca00c808858daec749\classes.dex" />
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0152ee2bbc7188da790eb52acd30550c226ac5f4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_49c49cd318c0974d1f99782b52b4b8a0a04faf0d\classes.dex" />
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_eed6168925ddc7ee7ca15d727e197b637fe96824\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_89d9807410d56c297da6ca87fea3fd4cb6a247e1\classes.dex" />
+        sha1="dcb583ad9412813a3d36ee159f74bfa4f568d248">
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9008c4122f5df3b91528e59d68574591cc451c0c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -144,51 +243,6 @@
         revision="24.0.2"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
         <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_b14f963b707feecf6b1befa9965ba39aeef532f0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_7c690074228f275702667606cb766c734411ffc8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b5f53088da5ed3b26dd902c9009f2cfa4a236ad4">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0106a88f470adae43de1c4475303c8c2a69f00e1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_7b165b116cedab3d83e63b59ca83409fc726c99f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_43921fd3bd52a97603a160fc11276c097fb9d09f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_766bb67f4dfa258438ba41f0ca27be9244f2a020\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -210,75 +264,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8d53b245a75b8edd40ba481936fcd1b45a71e4a1\classes.dex" />
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1799b935c8c6a791fc34191d8684e778fbe3f794\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_a47f70bd8c19057ee861a2d28607c9ba079f59f4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_a4ded164c3296168a6cdbe781410f08b42754df7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Alequin\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_9cbadbb135f576fc3aaf4777468a275c74d29c6c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_0657bc15d817be87f680f587a96b98b83ee68f71\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_c35ff91676637236ac7a045400e7f626989cc744\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_f20ade3f8223e46905ce00f7ce198aa9b0e9295b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Alequin\Desktop\SimpleMoodLight\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_7b07503424687afe7a96a032ad6472ac2377076b\classes.dex" />
+        sha1="166eab8bf35fec6de0a4c8f5a5fa591a2372e8df">
+        <dex dex="C:\Users\Alequin\Desktop\simple-mood-light\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_eeac8c228cf775caf33969ab54b8749f5ba4ba25\classes.dex" />
     </item>
     <item
         is-multidex="true"

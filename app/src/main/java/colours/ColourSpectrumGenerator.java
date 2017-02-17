@@ -35,7 +35,7 @@ public class ColourSpectrumGenerator {
         return generateColours(numberOfColours, new RGBColour(255,0,0));
     }
             
-    public static RGBColour[] generateColours(int numberOfColours, RGBColour baseColour){
+    private static RGBColour[] generateColours(int numberOfColours, RGBColour baseColour){
         
         if(numberOfColours <=0){
             throw new IllegalArgumentException("Number of colours must be greater than 0");
