@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item
+        name="main_background"
+        type="id"
+    />
+
+    <item
+        name="intro_layout"
+        type="id"
+    />
+
+    <item
+        name="arrow_image"
+        type="id"
+    />
+
+    <item
+        name="intro_text_top"
+        type="id"
+    />
+
+    <item
+        name="intro_text_bottom"
+        type="id"
+        />
+
+    <item
+        name="attribution_text"
+        type="id"
+        />
+
+</resources>
