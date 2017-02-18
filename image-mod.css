@@ -1,6 +1,22 @@
 #image{
-  position: absolute;
   border-radius: 10000px;
   top:50px;
   left:50px;
+}
+
+.feature{
+    position: absolute;
+}
+
+#background{
+
+}
+
+#title{
+  top:360px;
+  left: 80px;
+}
+
+#head{
+  height: 300px;
 }
