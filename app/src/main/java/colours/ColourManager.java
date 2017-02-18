@@ -11,7 +11,7 @@ public class ColourManager {
     private static final ColourManager singleton = new ColourManager();
 
     private final RGBColour[][] colours;
-    public final int numberOfColours = 100;
+    public final int numberOfColours = 1000;
 
     public static ColourManager getInstance(){
         return singleton;
@@ -47,7 +47,7 @@ public class ColourManager {
 
     public RGBColour getColourAt(int column, int row){
 
-        if(column < 0 || column > 100 || row < 0 || row > 100){
+        if(column < 0 || column > numberOfColours || row < 0 || row > numberOfColours){
             throw new IllegalArgumentException("All values must be between 0 and 100 inclusively");
         }
 
