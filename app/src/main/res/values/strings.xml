@@ -2,7 +2,7 @@
     <string name="app_name">Simple Mood Light</string>
 
     <string name="instructions_top">Drag your finger across the screen to change the colour</string>
-    <string name="instructions_bottom">Turn the brightness all the way up</string>
+    <string name="instructions_bottom">or double tap the screen to cycle through the colours</string>
     <string name="image_attribution">
         Logo Designed by Freepik\n
         <a href="#">www.freepik.com</a>

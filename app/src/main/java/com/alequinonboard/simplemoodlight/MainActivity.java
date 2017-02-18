@@ -94,13 +94,14 @@ public class MainActivity extends Activity implements View.OnTouchListener{
     private void activateAutoColourMode(){
         autoColourHandler.post(new Runnable() {
 
+            private int xIndex = colourManager.numberOfColours / 2;
             private int yIndex = 0;
 
             @Override
             public void run() {
 
                 long time1 = System.currentTimeMillis();
-                setBackgroundColour(colourManager.getColourAt(colourManager.numberOfColours / 2, yIndex));
+                setBackgroundColour(colourManager.getColourAt(xIndex, yIndex));
                 yIndex += 3;
 
                 if (yIndex >= colourManager.numberOfColours) {
