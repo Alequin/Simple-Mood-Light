@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "67607598668",
+    "firebase_url": "https://simple-mood-light-ca7dd.firebaseio.com",
+    "project_id": "simple-mood-light-ca7dd",
+    "storage_bucket": "simple-mood-light-ca7dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67607598668:android:95e714840e1ac549",
+        "android_client_info": {
+          "package_name": "com.alequinonboard.simplemoodlight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67607598668-h137jpoourhbh6o6tvm3up7hajmd31sb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxphKxmGTzUqEHdQ3mYgV26H6FTa_Nxws"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

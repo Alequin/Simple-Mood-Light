@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import com.alequinonboard.simplemoodlight.colours.ColourManager;
+import com.google.android.gms.ads.MobileAds;
 
 public class StartUpActivity extends Activity {
 
@@ -18,6 +19,7 @@ public class StartUpActivity extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
+                MobileAds.initialize(getApplicationContext(), getString(R.string.app_id_ad_mob));
                 ColourManager.getInstance().buildColours();
                 startActivity(toMainActivity);
                 finish();

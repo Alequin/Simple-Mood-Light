@@ -31,4 +31,9 @@
         type="id"
         />
 
+    <item
+        name="ad_view"
+        type="id"
+        />
+
 </resources>

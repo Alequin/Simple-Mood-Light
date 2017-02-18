@@ -16,6 +16,9 @@ import android.widget.RelativeLayout;
 import com.alequinonboard.simplemoodlight.colours.ColourManager;
 import com.alequinonboard.simplemoodlight.colours.RGBColour;
 import com.alequinonboard.simplemoodlight.interfaceControl.DoubleTapCheck;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class MainActivity extends Activity implements View.OnTouchListener{
 
@@ -69,6 +72,7 @@ public class MainActivity extends Activity implements View.OnTouchListener{
 
             if (isIntroLayoutVisible) {
                 toggleIntroVisibility(View.GONE);
+                loadAd();
             }
 
             if(motionEvent.getAction() == MotionEvent.ACTION_DOWN){
@@ -159,5 +163,17 @@ public class MainActivity extends Activity implements View.OnTouchListener{
         }else{
             return value;
         }
+    }
+
+    private void loadAd(){
+        final AdView adView = (AdView) findViewById(R.id.ad_view);
+        adView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                adView.setVisibility(View.VISIBLE);
+            }
+        });
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
     }
 }

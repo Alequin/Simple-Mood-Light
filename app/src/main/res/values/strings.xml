@@ -7,4 +7,9 @@
         Logo Designed by Freepik\n
         <a href="#">www.freepik.com</a>
     </string>
+
+    <string name="app_id_ad_mob"></string>
+    <string name="banner_ad_test_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id"></string>
+
 </resources>
