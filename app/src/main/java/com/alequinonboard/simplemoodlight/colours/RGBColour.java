@@ -1,5 +1,5 @@
 
-package colours;
+package com.alequinonboard.simplemoodlight.colours;
 /**
  * Created by Alequin on 20/12/2016.
  */

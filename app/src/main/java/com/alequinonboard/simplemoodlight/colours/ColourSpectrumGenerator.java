@@ -1,5 +1,5 @@
 
-package colours;
+package com.alequinonboard.simplemoodlight.colours;
 
 /**
  * Created by Alequin on 16/12/2016.
@@ -38,7 +38,7 @@ public class ColourSpectrumGenerator {
     public static RGBColour[] generateColours(int numberOfColours, RGBColour baseColour){
         
         if(numberOfColours <=0){
-            throw new IllegalArgumentException("Number of colours must be greater than 0");
+            throw new IllegalArgumentException("Number of com.alequinonboard.simplemoodlight.colours must be greater than 0");
         }
         
         final ColourSpectrumGenerator generator = new ColourSpectrumGenerator(numberOfColours, baseColour);
@@ -52,7 +52,7 @@ public class ColourSpectrumGenerator {
     }
     
     /**
-     * Generates an array of colours across the spectrum
+     * Generates an array of com.alequinonboard.simplemoodlight.colours across the spectrum
      */
     private RGBColour[] produceColours(){
 

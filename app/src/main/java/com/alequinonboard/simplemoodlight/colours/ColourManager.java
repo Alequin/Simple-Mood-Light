@@ -1,4 +1,4 @@
-package colours;
+package com.alequinonboard.simplemoodlight.colours;
 
 import java.math.BigDecimal;
 

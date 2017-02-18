@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import colours.ColourManager;
+import com.alequinonboard.simplemoodlight.colours.ColourManager;
 
 public class StartUpActivity extends Activity {
 

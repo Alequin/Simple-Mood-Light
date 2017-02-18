@@ -7,14 +7,16 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import colours.ColourManager;
-import colours.RGBColour;
+import com.alequinonboard.simplemoodlight.colours.ColourManager;
+import com.alequinonboard.simplemoodlight.colours.RGBColour;
+import com.alequinonboard.simplemoodlight.interfaceControl.DoubleTapCheck;
 
 public class MainActivity extends Activity implements View.OnTouchListener{
 
@@ -22,6 +24,10 @@ public class MainActivity extends Activity implements View.OnTouchListener{
     private LinearLayout introLayout;
     private boolean isIntroLayoutVisible = true;
     private ColourManager colourManager;
+
+    private final DoubleTapCheck doubleTapCheck = new DoubleTapCheck();
+
+    private final Handler autoColourHandler = new Handler();
 
     private SharedPreferences lastUsedColour;
     private static final String RED_SAVED = "RED_SAVED";
@@ -63,21 +69,56 @@ public class MainActivity extends Activity implements View.OnTouchListener{
     @Override
     public boolean onTouch(View view, MotionEvent motionEvent) {
 
+
         if(view.getId() == R.id.attribution_text){
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.freepik.com/free-vector/man-head-forming-a-bulb_718375.htm")));
             return true;
-        }else{
-            if(isIntroLayoutVisible){
+        }else {
+
+            if (isIntroLayoutVisible) {
                 toggleIntroVisibility(View.GONE);
             }
 
-            int xPosition = getXPositionAsPercentage((motionEvent.getX()));
-            int yPosition = getYPositionAsPercentage(motionEvent.getY());
+            if(motionEvent.getAction() == MotionEvent.ACTION_DOWN){
+                autoColourHandler.removeCallbacksAndMessages(null);
+                if(doubleTapCheck.isDoubleTap()) {
+                    activateAutoColourMode();
+                }
+            }
 
-            setBackgroundColour(colourManager.getColourAt(xPosition, yPosition));
-
-            return true;
+            setBackgroundFromPosition(motionEvent.getX(), motionEvent.getY());
         }
+        return true;
+    }
+
+    private void activateAutoColourMode(){
+        autoColourHandler.post(new Runnable() {
+
+            private int yIndex = 0;
+
+            @Override
+            public void run() {
+
+                long time1 = System.currentTimeMillis();
+                setBackgroundColour(colourManager.getColourAt(colourManager.numberOfColours / 2, yIndex));
+                yIndex += 3;
+
+                if (yIndex >= colourManager.numberOfColours) {
+                    yIndex = 0;
+                }
+                long time2 = System.currentTimeMillis();
+
+                autoColourHandler.postDelayed(this, 100-(time2 - time1));
+            }
+        });
+    }
+
+    private void setBackgroundFromPosition(float x, float y){
+
+        int xPosition = getXPositionAsPercentage(x);
+        int yPosition = getYPositionAsPercentage(y);
+
+        setBackgroundColour(colourManager.getColourAt(xPosition, yPosition));
     }
 
     private void toggleIntroVisibility(int visibility){
