@@ -8,7 +8,6 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -29,20 +28,14 @@ public class MainActivity extends Activity implements View.OnTouchListener{
 
     private final Handler autoColourHandler = new Handler();
 
-    private SharedPreferences lastUsedColour;
     private static final String RED_SAVED = "RED_SAVED";
     private static final String GREEN_SAVED = "GREEN_SAVED";
     private static final String BLUE_SAVED = "BLUE_SAVED";
-
-    private RGBColour currentColour;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        lastUsedColour = this.getSharedPreferences("lastUsedColour", Context.MODE_PRIVATE);
-
         colourManager = ColourManager.getInstance();
 
         background = (RelativeLayout) findViewById(R.id.main_background);
@@ -57,13 +50,12 @@ public class MainActivity extends Activity implements View.OnTouchListener{
     @Override
     protected void onPause() {
         super.onPause();
-        saveColourAsLastUsed(currentColour);
+        stopAutoColourMode();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        setBackgroundColour(loadLastUsedColour());
     }
 
     @Override
@@ -80,9 +72,9 @@ public class MainActivity extends Activity implements View.OnTouchListener{
             }
 
             if(motionEvent.getAction() == MotionEvent.ACTION_DOWN){
-                autoColourHandler.removeCallbacksAndMessages(null);
+                stopAutoColourMode();
                 if(doubleTapCheck.isDoubleTap()) {
-                    activateAutoColourMode();
+                    startAutoColourMode();
                 }
             }
 
@@ -91,7 +83,7 @@ public class MainActivity extends Activity implements View.OnTouchListener{
         return true;
     }
 
-    private void activateAutoColourMode(){
+    private void startAutoColourMode(){
         autoColourHandler.post(new Runnable() {
 
             private int xIndex = colourManager.numberOfColours / 2;
@@ -114,6 +106,10 @@ public class MainActivity extends Activity implements View.OnTouchListener{
         });
     }
 
+    private void stopAutoColourMode(){
+        autoColourHandler.removeCallbacksAndMessages(null);
+    }
+
     private void setBackgroundFromPosition(float x, float y){
 
         int xPosition = getXPositionAsPercentage(x);
@@ -134,7 +130,6 @@ public class MainActivity extends Activity implements View.OnTouchListener{
     }
 
     private void setBackgroundColour(RGBColour colour){
-        currentColour = colour;
         background.setBackgroundColor(Color.rgb(colour.getRed(), colour.getGreen(), colour.getBlue()));
     }
 
@@ -153,8 +148,11 @@ public class MainActivity extends Activity implements View.OnTouchListener{
      * is on.
      */
     private int checkValueInRange(int value){
-        if(value > colourManager.numberOfColours-1){
-            return colourManager.numberOfColours-1;
+
+        final int upperBound = colourManager.numberOfColours-1;
+
+        if(value > upperBound){
+            return upperBound;
         }else
         if(value < 0){
             return 0;
@@ -162,22 +160,4 @@ public class MainActivity extends Activity implements View.OnTouchListener{
             return value;
         }
     }
-
-    private RGBColour loadLastUsedColour(){
-        return new RGBColour(
-                lastUsedColour.getInt(RED_SAVED, 255),
-                lastUsedColour.getInt(GREEN_SAVED, 255),
-                lastUsedColour.getInt(BLUE_SAVED, 255)
-        );
-    }
-
-    private void saveColourAsLastUsed(RGBColour colour){
-
-        SharedPreferences.Editor edit = lastUsedColour.edit();
-        edit.putInt(RED_SAVED, colour.getRed());
-        edit.putInt(GREEN_SAVED, colour.getGreen());
-        edit.putInt(BLUE_SAVED, colour.getBlue());
-        edit.apply();
-    }
-
 }
