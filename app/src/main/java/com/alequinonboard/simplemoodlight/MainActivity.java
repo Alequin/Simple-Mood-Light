@@ -25,6 +25,8 @@ public class MainActivity extends Activity implements View.OnTouchListener{
     private RelativeLayout background;
     private LinearLayout introLayout;
     private boolean isIntroLayoutVisible = true;
+    private AdView adView;
+
     private ColourManager colourManager;
 
     private final DoubleTapCheck doubleTapCheck = new DoubleTapCheck();
@@ -53,12 +55,14 @@ public class MainActivity extends Activity implements View.OnTouchListener{
     @Override
     protected void onPause() {
         super.onPause();
+        adView.pause();
         stopAutoColourMode();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
+        adView.resume();
     }
 
     @Override
@@ -166,7 +170,7 @@ public class MainActivity extends Activity implements View.OnTouchListener{
     }
 
     private void loadAd(){
-        final AdView adView = (AdView) findViewById(R.id.ad_view);
+        adView = (AdView) findViewById(R.id.ad_view);
         adView.setAdListener(new AdListener() {
             @Override
             public void onAdLoaded() {
