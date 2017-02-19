@@ -55,14 +55,19 @@ public class MainActivity extends Activity implements View.OnTouchListener{
     @Override
     protected void onPause() {
         super.onPause();
-        adView.pause();
+        if(adView != null){
+            adView.pause();
+        }
+
         stopAutoColourMode();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        adView.resume();
+        if(adView != null){
+            adView.resume();
+        }
     }
 
     @Override
